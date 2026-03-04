@@ -2,7 +2,7 @@ Testcase design assignment
 Design Test case for saucedemo.com login page
 
 | Test Case ID | Test Description                                       | Pre-Condition                           | Test Input                                                  | Test Data                                             | Expected Result                                                         |
-| ------------ | ------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------- |
+
 | TC_Login_01  | Verify login with valid credentials                    | User is on SauceDemo login page         | Enter valid username and password. Click Login              | Username: standard_user Password: secret_sauce        | User should be successfully logged in and redirected to Products page   |
 | TC_Login_02  | Verify login with invalid username                     | User is on login page                   | Enter invalid username and valid password. Click Login      | Username: invalid_user  Password: secret_sauce        | Error message displayed: "Username and password do not match any user"  |
 | TC_Login_03  | Verify login with invalid password                     | User is on login page                   | Enter valid username and invalid password. Click Login      | Username: standard_user Password: wrong_password      | Error message displayed                                                 |
